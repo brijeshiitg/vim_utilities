@@ -18,7 +18,8 @@
 # Few basic shortcuts for vim:
 
 ## Navigation:
->
+#### Following are a few basic navigation commands:
+	>
 	> - **j** : down
 	> - **k** : up
 	> - **h** : left
