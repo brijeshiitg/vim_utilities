@@ -19,11 +19,11 @@
 
 ## Navigation:
 #### Following are a few basic navigation commands:
-	>
-	> - **j** : down
-	> - **k** : up
-	> - **h** : left
-	> - **l** : right
+
+    - **j** : down
+    - **k** : up
+    - **h** : left
+    - **l** : right
 	> - **w** : a word forward
 	> - **b** : a word backward
 	> - **<shift> + i** : beginning of line + INSERT mode
