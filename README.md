@@ -1,4 +1,4 @@
-## Minimal instructions to get started with customized vim:
+# Minimal instructions to get started with customized vim:
 
 - Copy **.vimrc** file to location **~/**
 
@@ -15,9 +15,9 @@
 	- Done!
 
 
-## Few basic shortcuts for vim:
+# Few basic shortcuts for vim:
 
-### Navigation:
+## Navigation:
 >
 	> - **j** : down
 	> - **k** : up
@@ -37,7 +37,7 @@
 	> - **<ctrl>+e** : one line down
 
 
-### Copy / Cut / Paste / Delete:
+## Copy / Cut / Paste / Delete:
 
 	 **yy** : yank or copy the current line
 	 **dw** : cut or delete the current word
@@ -53,7 +53,7 @@
 	 **ct<char>** : delete upto *char* + INSERT mode
 
 
-### Copy / cut / delete a block of code:
+## Copy / cut / delete a block of code:
 
 	step1: **<shift>+v** : highlight the line
 	step2: start pressing **j** to select downward (alternatively, **k** to select updward)
@@ -62,13 +62,13 @@
 	Note: use *v* instead of *<shift+v>* to start highlighting from the current word
 
 
-### Undo / Redo:
+## Undo / Redo:
 
 	 **u** : undo last command
 	 **<ctrl>+r** : redo last command
 
 
-### Search a text:
+## Search a text:
 	 **/<word>** : will highlight the occurences of *word* in the text
 		 press **n** to goto the next occurence
 		 press **<shift>+n** to goto the previous occurence
@@ -76,7 +76,7 @@
 	 ** # ** : searches backward the occurence of the current word	
 
 
-### Find and replace:
+## Find and replace:
 
 	 **%s/<search_text>/<replace_text>/g** : replaces *all* the occurences of *<search_text>* with *<replace_text>*
 	 **%s/<search_text>/<replace_text>/gi** : replaces *all* the occurences of *<search_text>* with *<replace_text>* (Case-insensitive)
@@ -84,13 +84,13 @@
 	 **%s/<search_text>/<replace_text>/gci** : asks before replacing *each* occurence of *<search_text>* with *<replace_text>* (Case-insensitive)
 
 
-### Insert a line above or below the current line:
+## Insert a line above or below the current line:
 
 	 **o** : new line with indentation below current line
 	 **<shift>+o** : new line with indentation above current line
 
 
-### Commenting block of python code:
+## Commenting block of python code:
 	step1: **<ctrl>+v**
 	step2: keep pressing **j** to select downward (alternatively, press **k** to select upward)
 	step3: **<shift>+i**
@@ -98,6 +98,6 @@
 	step5: press **<ESC>**	
 
 
-### Bonus:
+## Bonus:
 
 In INSERT model keep pressing **<ctrl> + y** to replicate previous line word by word
